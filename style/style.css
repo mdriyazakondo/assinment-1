@@ -209,7 +209,6 @@ footer {
   }
   .share-p {
     width: 100%;
-    width: 350px;
     margin: 24px auto;
   }
 
@@ -226,6 +225,10 @@ footer {
   }
   .working-img {
     order: 1;
+  }
+  .working-img img {
+    width: 300px;
+    margin: 0 auto;
   }
   .video-div {
     width: 100%;
@@ -248,8 +251,8 @@ footer {
   }
   .footer {
     width: 100%;
-    max-width: 350px;
-    margin: 20px auto;
+    max-width: 414px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
   }
