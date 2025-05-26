@@ -192,7 +192,7 @@ footer {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 414px) {
   .nav-section {
     padding: 10px 15px;
   }
@@ -200,19 +200,22 @@ footer {
     font-size: 0.8rem;
   }
   .hero-section {
-    max-width: 400px;
+    width: 100%;
+    max-width: 350px;
     margin: 32px auto;
   }
   .share-h1 {
     font-size: 20px;
   }
   .share-p {
+    width: 100%;
     width: 350px;
     margin: 24px auto;
   }
 
   .working-section {
-    width: 450px;
+    width: 100%;
+    width: 350px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -225,11 +228,13 @@ footer {
     order: 1;
   }
   .video-div {
-    max-width: 400px;
+    width: 100%;
+    max-width: 350px;
     margin: 0 auto;
   }
   .orginal-vedio {
-    width: 400px;
+    width: 100%;
+    max-width: 350px;
     height: 300px;
   }
   .card {
@@ -237,11 +242,13 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   .card-title {
-    width: 400px;
+    width: 100%;
+    max-width: 350px;
     margin: 20px auto;
   }
   .footer {
-    width: 500px;
+    width: 100%;
+    max-width: 350px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
